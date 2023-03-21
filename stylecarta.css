@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+    
+body{
+    background-color: white;
+}
+
+.contenido{
+    width: 250px;
+    border: 1px solid black;
+    position: absolute;
+    transform: translate(-50%  -50%);
+    top:15% ;
+    left: 40%;
+}
+#carta {
+    position: relative;
+    background:darkorange ;
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px black;
+    border-radius: 10px;
+}
+ #carta img {
+display: block;
+width: 180px;
+max-height: 200px;
+position: relative;
+margin: 20px auto;
+ }
+
+ .poke-name{
+    text-align: center;
+    font-weight: 600;
+ }
+ .tipos{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+
+ }
+
+ .stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+ }
+ #boton{
+    display:block;
+    padding: 15px 60px;
+    font-size: 18px;
+    background-color: cornflowerblue;
+    color: white;
+    position:relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    
+ }
+.hp{
+    width: 80px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+}
+ 
