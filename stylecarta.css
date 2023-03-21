@@ -49,6 +49,7 @@ margin: 20px auto;
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    background-color: white;
  }
  #boton{
     display:block;
